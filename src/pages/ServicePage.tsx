@@ -46,11 +46,11 @@ const PediatricOrthoBanner = () => (
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="rounded-xl overflow-hidden border border-border bg-card">
-            <img src={pediatricBraces} alt="Child smiling with metal braces" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
+            <img src={pediatricInvisalign} alt="Child smiling with metal braces" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
             <p className="text-center text-sm font-semibold text-foreground py-2">Braces</p>
           </div>
           <div className="rounded-xl overflow-hidden border border-border bg-card">
-            <img src={pediatricInvisalign} alt="Child holding clear Invisalign aligner" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
+            <img src={pediatricBraces} alt="Child holding clear Invisalign aligner" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
             <p className="text-center text-sm font-semibold text-foreground py-2">Invisalign</p>
           </div>
         </div>
