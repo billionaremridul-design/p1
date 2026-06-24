@@ -1,6 +1,6 @@
 import { useState } from "react";
-import beforeAfterAsset from "@/assets/dentures/dentures-before-after.png.asset.json";
-import patientAsset from "@/assets/dentures/denture-patient.jpeg.asset.json";
+import beforeAfterImg from "@/assets/dentures-before-after.jpeg";
+import patientImg from "@/assets/denture-patient.jpeg";
 
 const shortText =
   "An elderly patient visited Preenja's Dental & Implant Centre, Greater Kailash II, with severely damaged and decayed teeth across both upper and lower arches, causing difficulty in chewing and significant aesthetic concerns. After a thorough clinical evaluation, Dr. Sandeep Preenja planned a complete full mouth rehabilitation using high-quality ceramic crowns and precision-fitted dental bridges — custom-designed to restore full chewing function and a natural, confident smile.";
@@ -22,7 +22,7 @@ const CrownBridgeCaseStudy = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="rounded-xl overflow-hidden bg-card border border-border">
               <img
-                src={beforeAfterAsset.url}
+                src={beforeAfterImg}
                 alt="Complete full mouth crowns and bridges before and after — real patient result at Preenja's Dental"
                 className="w-full h-auto object-contain"
                 loading="lazy"
@@ -30,7 +30,7 @@ const CrownBridgeCaseStudy = () => {
             </div>
             <figure className="rounded-xl overflow-hidden bg-card border border-border flex flex-col">
               <img
-                src={patientAsset.url}
+                src={patientImg}
                 alt="Happy elderly patient after full mouth crown and bridge rehabilitation at Preenja's Dental, Greater Kailash II"
                 className="w-full h-auto object-contain"
                 loading="lazy"

@@ -71,8 +71,7 @@ import whiteningBefore from "@/assets/services/cases/whitening-before.png";
 import whiteningAfter from "@/assets/services/cases/whitening-after.png";
 
 /** Homepage service grid — one image per slug */
-import bridgesCrownsAsset from "@/assets/services/bridges-crowns-card.png.asset.json";
-const dentalBridgesCrownsCard = bridgesCrownsAsset.url;
+import dentalBridgesCrownsCard from "@/assets/services/crowns-before-after-collage.png";
 
 
 export const serviceCardImages: Record<string, string> = {

@@ -4,7 +4,7 @@ import profileImg1 from "@/assets/profile-1.png";
 import profileImg2 from "@/assets/profile-2.png";
 import profileImg3 from "@/assets/profile-3.png";
 import drSandeepProfile from "@/assets/dr-sandeep-preenja-profile.jpeg";
-import clinicExteriorAsset from "@/assets/clinic-exterior-main.png.asset.json";
+import clinicExteriorImg from "@/assets/clinic-exterior-main.jpeg";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import AnimatedCounter from "@/components/AnimatedCounter";
 
@@ -247,7 +247,7 @@ const AboutPage = () => (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
           <div className="rounded-2xl overflow-hidden min-h-[400px]">
             <img
-              src={clinicExteriorAsset.url}
+              src={clinicExteriorImg}
               alt="Preenja's Dental & Implant Centre — Clinic exterior in Greater Kailash II, New Delhi"
               className="w-full h-full"
               style={{ width: "100%", height: "100%", minHeight: "400px", objectFit: "cover" }}

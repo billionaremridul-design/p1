@@ -9,18 +9,16 @@ import logo from "@/assets/logo-new.png";
 import galleryReception from "@/assets/gallery-reception.jpeg";
 import galleryTreatment from "@/assets/gallery-treatment.jpeg";
 import galleryExterior from "@/assets/gallery-exterior.jpeg";
-import galleryEquipmentAsset from "@/assets/gallery-equipment-new.jpeg.asset.json";
-const galleryEquipment = galleryEquipmentAsset.url;
+import galleryEquipmentAsset from "@/assets/gallery-equipment-new.jpeg";
+const galleryEquipment = galleryEquipmentAsset;
 import galleryWaiting from "@/assets/gallery-waiting.jpeg";
 import gallerySterilization from "@/assets/gallery-sterilization.jpeg";
 
-import implants1Asset from "@/assets/results/full-mouth-implants-new.png.asset.json";
-const implants1 = implants1Asset.url;
+import implants1 from "@/assets/results/implants-before-after-1.png";
 import implants2 from "@/assets/results/implants-before-after-2.png";
 import whitening1 from "@/assets/results/whitening-before-after-1.png";
 import cosmetic1 from "@/assets/results/cosmetic-before-after.png";
-import gapClosureAsset from "@/assets/results/gap-closure-new.png.asset.json";
-const gapClosure = gapClosureAsset.url;
+import gapClosure from "@/assets/gap-closure-new.jpeg";
 import cleaning from "@/assets/results/cleaning-before-after.webp";
 
 import { services, serviceCardImages, supplementaryServiceSlugs } from "@/data/services";

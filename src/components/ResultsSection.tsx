@@ -1,15 +1,13 @@
 import { useState } from "react";
 
-import implants1Asset from "@/assets/results/full-mouth-implants-new.png.asset.json";
-const implants1 = implants1Asset.url;
+import implants1 from "@/assets/results/implants-before-after-1.png";
 import implants2 from "@/assets/results/implant-restoration-real.jpeg";
 import implants3 from "@/assets/results/implants-before-after-3.png";
 import cosmetic1 from "@/assets/results/cosmetic-before-after.png";
 import cosmetic2 from "@/assets/results/cosmetic-before-after-2.png";
 import whitening1 from "@/assets/results/whitening-before-after-1.png";
 import whitening2 from "@/assets/results/whitening-before-after-2.png";
-import gapClosureAsset from "@/assets/results/gap-closure-new.png.asset.json";
-const gapClosure = gapClosureAsset.url;
+import gapClosure from "@/assets/gap-closure-new.jpeg";
 import cleaning from "@/assets/results/cleaning-before-after.webp";
 import implantModel from "@/assets/results/implant-model.png";
 

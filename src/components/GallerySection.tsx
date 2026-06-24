@@ -1,8 +1,8 @@
 import galleryReception from "@/assets/gallery-reception.jpeg";
 import galleryTreatment from "@/assets/gallery-treatment.jpeg";
 import galleryExterior from "@/assets/gallery-exterior.jpeg";
-import galleryEquipmentAsset from "@/assets/gallery-equipment-new.jpeg.asset.json";
-const galleryEquipment = galleryEquipmentAsset.url;
+import galleryEquipmentAsset from "@/assets/gallery-equipment-new.jpeg";
+const galleryEquipment = galleryEquipmentAsset;
 import galleryWaiting from "@/assets/gallery-waiting.jpeg";
 import gallerySterilization from "@/assets/gallery-sterilization.jpeg";
 

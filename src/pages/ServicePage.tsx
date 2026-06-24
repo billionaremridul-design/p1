@@ -12,17 +12,17 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CaseStudySection from "@/components/CaseStudySection";
 import SimpleCaseStudyCard from "@/components/SimpleCaseStudyCard";
-import pediatricBraces from "@/assets/pediatric/pediatric-braces.png.asset.json";
-import pediatricInvisalign from "@/assets/pediatric/pediatric-invisalign.png.asset.json";
-import implantCase2 from "@/assets/cases/implant-case-2.png.asset.json";
-import implantCase3 from "@/assets/cases/implant-case-3.png.asset.json";
-import gumCase from "@/assets/cases/gum-case.png.asset.json";
-import invisalignCaseImg from "@/assets/cases/invisalign-case-result.png.asset.json";
-import metalBracesCaseImg from "@/assets/cases/metal-braces-case-result.png.asset.json";
+import pediatricBraces from "@/assets/pediatric-braces.jpeg";
+import pediatricInvisalign from "@/assets/pediatric-invisalign.jpeg";
+import implantCase2 from "@/assets/implant-case-2.jpeg";
+import implantCase3 from "@/assets/implant-case-3.jpeg";
+import gumCase from "@/assets/gum-case.jpeg";
+import invisalignCaseImg from "@/assets/invisalign-case-result.jpeg";
+import metalBracesCaseImg from "@/assets/metal-braces-case-result.jpeg";
 
 const orthoCaseCards = [
-  { label: "Invisalign Clear Aligner Case", img: invisalignCaseImg.url, alt: "Invisalign clear aligner before and after — real patient result at Preenja's Dental & Implant Centre" },
-  { label: "Metal Braces Correction Case", img: metalBracesCaseImg.url, alt: "Metal braces correction case — before, during treatment and final result" },
+  { label: "Invisalign Clear Aligner Case", img: invisalignCaseImg, alt: "Invisalign clear aligner before and after — real patient result at Preenja's Dental & Implant Centre" },
+  { label: "Metal Braces Correction Case", img: metalBracesCaseImg, alt: "Metal braces correction case — before, during treatment and final result" },
 ];
 
 const { bracesTypes, bracesAnatomy, orthoCases, clearAligners } = orthoImages;
@@ -46,11 +46,11 @@ const PediatricOrthoBanner = () => (
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className="rounded-xl overflow-hidden border border-border bg-card">
-            <img src={pediatricBraces.url} alt="Child smiling with metal braces" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
+            <img src={pediatricBraces} alt="Child smiling with metal braces" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
             <p className="text-center text-sm font-semibold text-foreground py-2">Braces</p>
           </div>
           <div className="rounded-xl overflow-hidden border border-border bg-card">
-            <img src={pediatricInvisalign.url} alt="Child holding clear Invisalign aligner" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
+            <img src={pediatricInvisalign} alt="Child holding clear Invisalign aligner" className="w-full h-48 md:h-56 object-cover" loading="lazy" />
             <p className="text-center text-sm font-semibold text-foreground py-2">Invisalign</p>
           </div>
         </div>
@@ -314,14 +314,14 @@ const ServicePage = () => {
                   <div className="space-y-8">
                     <SimpleCaseStudyCard
                       title="Full Mouth Implant Rehabilitation — Case 1"
-                      imageUrl={implantCase2.url}
+                      imageUrl={implantCase2}
                       imageAlt="Full mouth implant rehabilitation before and after Preenja's Dental"
                       shortText="A patient presented with complete tooth loss across both arches with existing failing implant abutments. Dr. Sandeep Preenja performed a comprehensive full mouth implant rehabilitation — placing ceramic crowns over all implants for both upper and lower arches."
                       fullText="The result is a natural-looking, fully functional smile restored with precision implant dentistry at Preenja's Dental & Implant Centre, Greater Kailash II."
                     />
                     <SimpleCaseStudyCard
                       title="Implant Supported Complete Dentures — Case 2"
-                      imageUrl={implantCase3.url}
+                      imageUrl={implantCase3}
                       imageAlt="Implant supported full arch restoration before and after Preenja's Dental"
                       shortText="This patient came with severely damaged teeth and multiple missing teeth across both arches. After thorough bone assessment and treatment planning, Dr. Preenja placed multiple implants and completed the restoration with precision-fitted complete dentures."
                       fullText="The transformation from failing teeth to a perfect, confident smile was achieved through structured implant surgery and prosthetic work a testament to advanced implant dentistry in South Delhi, New Delhi."
@@ -333,7 +333,7 @@ const ServicePage = () => {
                   <h2 className="section-heading mb-8">Real Patient Results</h2>
                   <SimpleCaseStudyCard
                     title="Gum Disease Treatment — Real Patient Case"
-                    imageUrl={gumCase.url}
+                    imageUrl={gumCase}
                     imageAlt="Gum disease treatment before and after inflamed gums restored to healthy state"
                     shortText="A patient visited Preenja's Dental & Implant Centre with severe gum disease — visibly inflamed gums, heavy tartar buildup, and significant gum recession causing exposed tooth roots. Dr. Sandeep Preenja carried out a comprehensive periodontal treatment plan including deep scaling, root planing, and gum therapy."
                     fullText="Post-treatment, the gums showed remarkable improvement in health, color, and attachment. This case demonstrates the importance of early gum disease intervention and expert periodontal care at our clinic in Greater Kailash II, New Delhi."

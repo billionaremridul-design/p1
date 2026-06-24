@@ -1,7 +1,7 @@
 import InfoPageLayout, { AlternatingBlock } from "@/components/InfoPageLayout";
 import SimpleCaseStudyCard from "@/components/SimpleCaseStudyCard";
 import { preventiveImages } from "@/data/services";
-import preventiveCase from "@/assets/cases/preventive-case.png.asset.json";
+import preventiveCase from "@/assets/preventive-case.jpeg";
 
 const { preventiveTypes, scalingBeforeAfter, dentalProphylaxisTypes, oralProphylaxisBeforeAfter } = preventiveImages;
 
@@ -60,7 +60,7 @@ const PreventiveDentistryPage = () => (
         <h2 className="section-heading mb-8">Real Patient Results</h2>
         <SimpleCaseStudyCard
           title="Cavity Detection & Conservative Filling — Real Patient Case"
-          imageUrl={preventiveCase.url}
+          imageUrl={preventiveCase}
           imageAlt="Cavity detection, root canal access, and conservative composite filling — 3-panel real patient case"
           shortText="A patient came in for a routine check-up at Preenja's Dental & Implant Centre, Greater Kailash II, where early-stage cavity was detected in a molar using our digital imaging. What appeared as a small cavity had already progressed deeper requiring precise root canal access and conservative restoration."
           fullText="Dr. Preenja performed a minimally invasive root canal followed by a tooth-coloured composite filling preserving the maximum natural tooth structure. The final result is a fully restored, pain-free tooth with no visible difference from the natural tooth. This case highlights the value of regular dental check-ups and early intervention for preserving natural teeth."
