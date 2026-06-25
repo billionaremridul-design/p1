@@ -14,7 +14,7 @@ const galleryEquipment = galleryEquipmentAsset;
 import galleryWaiting from "@/assets/gallery-waiting.jpeg";
 import gallerySterilization from "@/assets/gallery-sterilization.jpeg";
 
-import implants1 from "@/assets/results/implants-before-after-1.png";
+import implants1 from "@/assets/full-mouth-implants-new.jpeg";
 import implants2 from "@/assets/results/implants-before-after-2.png";
 import whitening1 from "@/assets/results/whitening-before-after-1.png";
 import cosmetic1 from "@/assets/results/cosmetic-before-after.png";

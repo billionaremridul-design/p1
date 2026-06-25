@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import implants1 from "@/assets/results/implants-before-after-1.png";
+import implants1 from "@/assets/full-mouth-implants-new.jpeg";
 import implants2 from "@/assets/results/implant-restoration-real.jpeg";
 import implants3 from "@/assets/results/implants-before-after-3.png";
 import cosmetic1 from "@/assets/results/cosmetic-before-after.png";
